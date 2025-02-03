@@ -1,0 +1,39 @@
+.headerSection
+{
+    width:80%;
+    height:100px;
+    float:left;
+    //background-color:green;
+}
+.logoSection
+{
+    width:20%;
+    height:100px;
+    float:left;
+    
+}
+
+.logoImage{
+    width:auto;
+    height:100px;
+    display: block;
+    margin:auto;
+}
+.navbar
+{
+    list-style-type: none;
+}
+.navbar li a{
+    text-decoration: none;
+    float:left;
+    //background-color:red;
+    padding:10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color:purple;
+}
+
+.navbar li a:hover{
+    border-bottom:3px solid red;
+}

@@ -1,0 +1,35 @@
+@import '../../assests/scss/variable.scss';
+
+.bodySection
+{
+    width:100%;
+    height:500px;
+    float:left;
+    background-color:blueviolet;
+}
+.headerSection
+{
+    width:100%;
+    height:100px;
+    float:left;
+   // background-color:purple;
+}
+.bodySection h3
+{
+    text-align: center;
+    color:$color;
+}
+
+.footerSection
+{
+    width:100%;
+    height:100px;
+    float:left;
+    background-color:black;
+}
+
+.footerSection h3
+{
+    text-align: center;
+    color:$color;
+}
