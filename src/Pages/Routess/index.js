@@ -10,6 +10,7 @@ import ReviewPage from '../ReviewPage';
 import BlogPage from '../BlogPage';
 import ContactPage from '../ContactPage';
 import PageNotFound from '../PageNotFound';
+import StudentDetails from '../../Components/StudentDetails';
 import style from './Routess.module.scss';
 
 const Routess = () => {
@@ -25,6 +26,7 @@ const Routess = () => {
             <Route path="/Review" element={<ReviewPage />} />
             <Route path="/Blog" element={<BlogPage />} />
             <Route path="/Contact" element={<ContactPage />} />
+            <Route path="/StudentDetails" element={<StudentDetails />} />
             <Route path="*" element={<PageNotFound/>}
             />
 
