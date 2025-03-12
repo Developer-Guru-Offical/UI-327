@@ -73,9 +73,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-
-
-
+1. fetch()
+      - url 
+      - methods
+      - header 
+      - bareal token 
+2. Axios()
+      - url 
+      - methods
+      - header 
+      - bareal token 
 
 
 
