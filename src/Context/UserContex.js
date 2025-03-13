@@ -12,32 +12,3 @@ export const UserContexProvider=({children})=>{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- //export const UserContext = createContext();
-
-// export const UserContexProvider=({children})=>{
-//   const name="developer Guru";
-//   console.log(children);
-//     return (
-//     <UserContext.Provider value={name}>
-//       {children}
-//     </UserContext.Provider>)
-// }
