@@ -1,10 +1,15 @@
-import { useEffect,useState } from 'react';
-//import './HomePage.css';
+import { useEffect,useState,useContext } from 'react';
+import { UserContex } from '../../Context/UserContex';
 import styles from './HomePage.module.scss'
 import Header from '../../Components/Header';
 
 
+
 const HomePage = () => {
+
+    const name= useContext(UserContex);
+
+    console.log(name,'Context API name@######');
     const [courseValue,setCourseValue]=useState();
     const [open,setopen]=useState(false);
 
@@ -34,6 +39,7 @@ const HomePage = () => {
               <Header/>
               </div> */}
             <div className={styles.bodySection}>
+                {name}
                 {/* <h3> THIS IS THE BODY</h3> */}
                 {/* <h4 className='bg-primary'>HAVE A NIC DAY</h4> */}
             </div>
