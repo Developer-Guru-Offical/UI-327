@@ -85,8 +85,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
       - bareal token 
 
 
+- parent component 
+- child component 
+- props 
 
+                  org_id:1(Contex API)
 
+org_id:1    org_id:1    org_id:1    org_id:1
+     A         B          C             D
+     |         |          |             |
+A1  A2  A3   B1  B2      C1      D1  D2  D3  D4
+                                         |
+                                     D31   D32
+                                            |
+                                           D321
 
 
 

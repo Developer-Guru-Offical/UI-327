@@ -1,8 +1,11 @@
 
-import { useEffect, useState } from "react";
+import { useEffect, useState,useContext } from "react";
+import { UserContex } from "../../Context/UserContex";
 import style from "./StudentDetails.module.scss";
 
 const StudentDetails = () => {
+
+  const userName=useContext(UserContex);
 
   const [studentData, setStudentData] = useState();
   const [falgValue, setFalgValue] = useState(false);
@@ -28,7 +31,7 @@ const StudentDetails = () => {
 
   return <>
 
-    <h2>{falgValue || deleteMsg ? studentData ? studentData: 'No Record Found':'Record Has Been Deleted..!' }  
+    <h2>{userName}{falgValue || deleteMsg ? studentData ? studentData: 'No Record Found':'Record Has Been Deleted..!' }  
       {deleteMsg && <button className="btn btn-danger" onClick={()=>deleteRecord()}> Delete </button>}</h2>
   </>
 }

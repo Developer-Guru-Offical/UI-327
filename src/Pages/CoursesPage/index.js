@@ -4,7 +4,7 @@ import { CourseDetaisl } from '../../MocData/';
 import { useEffect, useState } from 'react';
 import CourseDetails from '../../Components/CourseDetails';
 import {axiosGetStudentDetails} from '../../Services/Api';
-import axios from "axios";
+//import axios from "axios";
 
 
 const CoursesPage = () => {
